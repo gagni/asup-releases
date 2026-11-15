@@ -1,0 +1,23 @@
+{
+  "id": "asup.pdf-conversion",
+  "kind": "addon",
+  "name": "asup-pdf-conversion",
+  "version": "0.1.0",
+  "notes": "",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.0001/asup-pdf-conversion-linux-x86_64.asupx",
+      "sha256": "2e2f3255b257958e71b232ee2927b8240964386d790db8cb409f05538c569d6b",
+      "size": 24352825
+    },
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.0001/asup-pdf-conversion-windows-x86_64.asupx",
+      "sha256": "425609f961c6a392a485f33eb3e45f48eb8c7c3fc734b98be6a1120d4e17e561",
+      "size": 24489072
+    }
+  ]
+}
