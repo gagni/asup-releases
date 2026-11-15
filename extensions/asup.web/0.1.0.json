@@ -1,0 +1,23 @@
+{
+  "id": "asup.web",
+  "kind": "addon",
+  "name": "asup-web",
+  "version": "0.1.0",
+  "notes": "",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.0001/asup-web-linux-x86_64.asupx",
+      "sha256": "c99027a4c88d8f86da7a1e3df9aa7c1e0bc65c76ddc279bc948c83034c5fbd33",
+      "size": 155747881
+    },
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.0001/asup-web-windows-x86_64.asupx",
+      "sha256": "d0b2a9bd35f869de15052419f905cd3115ea05119a3786d094d6af3f2b33a640",
+      "size": 189237141
+    }
+  ]
+}
