@@ -1,0 +1,23 @@
+{
+  "id": "asup.call-message",
+  "kind": "addon",
+  "name": "asup-call-message",
+  "version": "0.1.0",
+  "notes": "",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.0001/asup-call-message-linux-x86_64.asupx",
+      "sha256": "0fea5769e616b7c70aaa21bad73673e84dd6b4624aa758f3a0cbbad46c879d57",
+      "size": 7142469
+    },
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.0001/asup-call-message-windows-x86_64.asupx",
+      "sha256": "ad454a62f97c115d5e8979904d87bb919ce953724345c2f016bb4616b74342a8",
+      "size": 6894382
+    }
+  ]
+}
