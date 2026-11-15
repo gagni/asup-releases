@@ -1,0 +1,16 @@
+{
+  "id": "asup.video",
+  "kind": "addon",
+  "name": "asup-video",
+  "version": "0.1.0",
+  "notes": "",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.0001/asup-video-linux-x86_64.asupx",
+      "sha256": "70779b7adb877ed68da054a1e7ddd5f545f5608a2cb24679dab15b2d8c697531",
+      "size": 17306983
+    }
+  ]
+}
