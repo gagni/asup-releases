@@ -1,0 +1,27 @@
+{
+  "id": "asup.boards",
+  "kind": "addon",
+  "name": "asup-boards",
+  "version": "1.1.4",
+  "notes": "",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.4/asup-boards-linux-x86_64.asupx",
+      "sha256": "771b3e68872a751ce614aaacf28a0661ac7594c0bfa014dc5eedca8b0e0228a7",
+      "size": 8366247,
+      "version": "1.1.4",
+      "source": "6d1ab13ed749b2b308941deac1c9a136a3c9d55f48446e033fdb1e706a29c7e8"
+    },
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.4/asup-boards-windows-x86_64.asupx",
+      "sha256": "52db75cfe73826b69db39e731e65faa0f2cd3cb77cdeaf73107541204c949f71",
+      "size": 8254906,
+      "version": "1.1.4",
+      "source": "abdf43dd05cdaaf6a1174c60886a1927af9a90506cdd90c89a3556cd77dc4219"
+    }
+  ]
+}
