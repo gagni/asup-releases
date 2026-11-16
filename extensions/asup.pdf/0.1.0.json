@@ -8,16 +8,16 @@
     {
       "os": "linux",
       "arch": "x86_64",
-      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.0001/asup-pdf-linux-x86_64.asupx",
-      "sha256": "8f0b930acb321dec284fb09c3b7603a8341a4108406c1921c330e033858e1554",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.3/asup-pdf-linux-x86_64.asupx",
+      "sha256": "2abe4fb9d4c503cae28961e17eec1d8e859e8d7a572927cf7974be85e2aa7c27",
       "size": 8504680
     },
     {
       "os": "windows",
       "arch": "x86_64",
-      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.0001/asup-pdf-windows-x86_64.asupx",
-      "sha256": "05ded8860cc7dd626bbac0c733459bc90826c25f6c3d3612058cfb8b1b8b4155",
-      "size": 9641272
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.3/asup-pdf-windows-x86_64.asupx",
+      "sha256": "ba4a1113300d7143b52388e4e304f8472a0798b565ad3b8b8ab1a116564b945a",
+      "size": 8499412
     }
   ]
 }
