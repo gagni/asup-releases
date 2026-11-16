@@ -8,9 +8,16 @@
     {
       "os": "linux",
       "arch": "x86_64",
-      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.0001/asup-video-linux-x86_64.asupx",
-      "sha256": "70779b7adb877ed68da054a1e7ddd5f545f5608a2cb24679dab15b2d8c697531",
-      "size": 17306983
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.3/asup-video-linux-x86_64.asupx",
+      "sha256": "ec748006a24dccab7b6cbf0eb0e8ae704ca9299f8ac4174eddf118b3ae706324",
+      "size": 17307000
+    },
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.3/asup-video-windows-x86_64.asupx",
+      "sha256": "399e3ab7a3b069c427f12afe19dc8a97e91b32eabbba82a5c899419aa7f82298",
+      "size": 17044851
     }
   ]
 }
