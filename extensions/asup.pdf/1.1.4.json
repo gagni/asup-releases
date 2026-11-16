@@ -1,0 +1,27 @@
+{
+  "id": "asup.pdf",
+  "kind": "addon",
+  "name": "asup-pdf",
+  "version": "1.1.4",
+  "notes": "",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.4/asup-pdf-linux-x86_64.asupx",
+      "sha256": "7a101e3c88fbdef454337549493b1c5fbdade73371db1be1207349bd70eefe50",
+      "size": 8504684,
+      "version": "1.1.4",
+      "source": "219e3645a2366d05cbccfca289b62e1db8b51868f6745f93047324a0aa87d66b"
+    },
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.4/asup-pdf-windows-x86_64.asupx",
+      "sha256": "2a6a755360ad4ae9732b0dbb80b1de224c6b016c378b671976d7f3581599265b",
+      "size": 8499416,
+      "version": "1.1.4",
+      "source": "a0e79bd6e452367469b644447821ea115cda58653fec1982f7a8540303f0946f"
+    }
+  ]
+}
