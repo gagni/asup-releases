@@ -1,0 +1,27 @@
+{
+  "id": "asup.ctranslate2",
+  "kind": "addon",
+  "name": "asup-ctranslate2",
+  "version": "1.1.4",
+  "notes": "",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.4/asup-ctranslate2-linux-x86_64.asupx",
+      "sha256": "188d75a952b090297beddf427122b378f66e4a2e01d936fabc392c545ed1a851",
+      "size": 2583211,
+      "version": "1.1.4",
+      "source": "721b839db76f210feedce3a6ae7856a1e39f19fa57aeca7484fa1c87377acf1e"
+    },
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.4/asup-ctranslate2-windows-x86_64.asupx",
+      "sha256": "447482c309963c57ce748ab7429c3c6ce488f5c1dee0f9f1ff2440d70fabba32",
+      "size": 12106809,
+      "version": "1.1.4",
+      "source": "688d6087b14b5b0b534d9ec0fb1d3d5c27e960435a8108262c036732b8d7cda1"
+    }
+  ]
+}
