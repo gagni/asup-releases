@@ -8,16 +8,16 @@
     {
       "os": "linux",
       "arch": "x86_64",
-      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.0001/asup-boards-linux-x86_64.asupx",
-      "sha256": "c0bb79a9a5af0546b6a5587be6998e367eb0692f76238cf3325ece6cd83976e2",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.3/asup-boards-linux-x86_64.asupx",
+      "sha256": "d1e9ad3ef5571429cd37e0602dd42f61758ac0360c9f900f1c20e1d1b90abd09",
       "size": 8366246
     },
     {
       "os": "windows",
       "arch": "x86_64",
-      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.0001/asup-boards-windows-x86_64.asupx",
-      "sha256": "583aeabe97265f1fcaa06a46bcbe2d43e2342cac2da8a4f92c88b302c5362d4f",
-      "size": 9080836
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.3/asup-boards-windows-x86_64.asupx",
+      "sha256": "c27ca5ecfe53b8379940a70143b0d3ecdfb4e14270d9ff3df33884f7307e53a2",
+      "size": 8254902
     }
   ]
 }
