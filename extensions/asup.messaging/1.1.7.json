@@ -1,0 +1,27 @@
+{
+  "id": "asup.messaging",
+  "kind": "addon",
+  "name": "asup-messaging",
+  "version": "1.1.7",
+  "notes": "",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.7/asup-messaging-linux-x86_64.asupx",
+      "sha256": "4122dd8ba57d684dcbe24eb56ed6e043f6e4aaf460b675ee12f9edad1eb51cde",
+      "size": 1116943,
+      "version": "1.1.7",
+      "source": "20e62ea730625d227480c68a4986d9b3967585b1443d1ee78f644e1640d2369b"
+    },
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.7/asup-messaging-windows-x86_64.asupx",
+      "sha256": "e11cb798ed20acca59da9d44d68b099da945f17fc7f08af8449a71ee8f373425",
+      "size": 1065136,
+      "version": "1.1.7",
+      "source": "dd87a0e37fdb584c0e1a868db6486c6af9dcc3e1596751ca46b378663fa5ecba"
+    }
+  ]
+}
