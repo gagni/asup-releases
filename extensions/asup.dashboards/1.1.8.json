@@ -1,0 +1,27 @@
+{
+  "id": "asup.dashboards",
+  "kind": "addon",
+  "name": "asup-dashboards",
+  "version": "1.1.8",
+  "notes": "",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.8/asup-dashboards-linux-x86_64.asupx",
+      "sha256": "63a07f84fc59adbeacd1a1e8768fcebf97f3c53d1afddc1de714f14e1b6d38aa",
+      "size": 28493914,
+      "version": "1.1.8",
+      "source": "22e3b666c7418643eba577e64f8847e47bc9a6a37292dfeb2f8f8d54f8a193d4"
+    },
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.8/asup-dashboards-windows-x86_64.asupx",
+      "sha256": "07799bd6e28a1ce791fb2ca9c01f9262c5f5de06eb93184d26c4e54662e93431",
+      "size": 19223866,
+      "version": "1.1.8",
+      "source": "cd5de0b8784885f53575be826961b73c9c419a18f776daf13c1c069b220c48ef"
+    }
+  ]
+}
