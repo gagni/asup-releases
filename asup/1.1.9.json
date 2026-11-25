@@ -1,0 +1,23 @@
+{
+  "id": "asup",
+  "kind": "app",
+  "name": "aSup",
+  "version": "1.1.9",
+  "notes": "aSup 1.1.9",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.9/asup-light-1.1.9-linux-x86_64.tar.zst",
+      "sha256": "e1b7af60faf0a7a544320a64f9df325d3579dd0430f1309cb69baf1ee18ea297",
+      "size": 223592675
+    },
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.9/asup-light-1.1.9-windows-x86_64.zip",
+      "sha256": "83b51b7da0850ef228483cd783a6cc5d3c23a2dc90cb0dec39a021d29d928fd2",
+      "size": 229699133
+    }
+  ]
+}
