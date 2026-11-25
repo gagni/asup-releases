@@ -1,0 +1,27 @@
+{
+  "id": "asup.vision-engine",
+  "kind": "addon",
+  "name": "asup-vision-engine",
+  "version": "1.1.9",
+  "notes": "",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.9/asup-vision-engine-linux-x86_64.asupx",
+      "sha256": "4be8dd806f3cc8704a3b146a0a255dc038b1fe5ad7226ffab860a7d758c2d981",
+      "size": 9490343,
+      "version": "1.1.9",
+      "source": "225e6f618aeb508c825c0923287957b840eb44774b7be8f3407fb20e1c06d05f"
+    },
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.9/asup-vision-engine-windows-x86_64.asupx",
+      "sha256": "8945ee031959da663f8598a8c756ea92865e13585f16fca4b64f1765273cc60f",
+      "size": 10095052,
+      "version": "1.1.9",
+      "source": "d60991b96ea2db33e462b10f35fd1a6fe08ef78511b0460638a709bf7c178b88"
+    }
+  ]
+}
