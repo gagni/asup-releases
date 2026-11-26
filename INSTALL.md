@@ -136,6 +136,7 @@ stdio. Contract: `extensions/README.md`.
 | `boards` | Design boards (UX/UI screens). |
 | `dashboards` | Dashboards (`.asupdash`). |
 | `images`, `video` | Image editor, video editor. |
+| `docs-sheets-slides` | Docs, Sheets and Slides: Word, Excel and PowerPoint documents (folio, about 290 MB). |
 | `vision-engine` | Project vision (architecture, problems). |
 | `ctranslate2` | Local translation models. |
 | `call-message` | Calls in the messaging. |
