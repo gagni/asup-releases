@@ -78,8 +78,8 @@ Copy-Item "$env:TEMP\asup-light-<version>-windows-x86_64\asup.exe" "$dest\asup.e
 - The first run may show a Windows firewall prompt; aSup's own links are local (127.0.0.1) and
   remote access goes through iroh without an open port, so refusing is fine.
 - The integrated terminal uses ConPTY and runs `pwsh` if installed, else Windows PowerShell.
-- aSup downloads with its own HTTP client: `curl.exe` (shipped with Windows) is only used for
-  Kubernetes direct access (API URL and token).
+- aSup downloads with its own HTTP client (system proxy and certificate store, retries, resumed
+  transfers): it never needs `curl.exe`.
 
 ### Useful command-line options
 
@@ -168,7 +168,7 @@ The ids in the catalog follow `asup.<name>`. An extension sees `ASUP_EXTENSION_I
 |---|---|---|---|
 | Claude Code | One agent at least | Linux: `curl -fsSL https://claude.ai/install.sh \| bash`; Windows: `powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://claude.ai/install.ps1 \| iex"` | `claude auth login`, or `ANTHROPIC_API_KEY` |
 | Codex | Optional | Linux: `curl -fsSL https://chatgpt.com/codex/install.sh \| CODEX_NON_INTERACTIVE=1 sh`; Windows: `npm install -g @openai/codex` (needs Node) | `codex login`, or `OPENAI_API_KEY` |
-| curl | Optional | System (Windows 10+ ships it): Kubernetes direct access and the Linux agent installers. On an ssh host, HTTP APIs (Kubernetes, brokers, observability, Elasticsearch) use its curl when present, else an ssh tunnel; Node, Python and Codex archives are sent by the PC when it has neither curl nor wget (Claude Code's installer still needs one of them) | |
+| curl | No | aSup downloads with its own client. Where an installer of another vendor calls `curl` or `wget` (agents' installers; Claude Code's and Codex's on Linux or macOS) and there is no curl, aSup puts stand-ins first on its PATH that download through aSup (on an ssh host, through a reverse forward of the connection: the host needs no Internet; bash needed there). On an ssh host, HTTP APIs (Kubernetes, brokers, observability, Elasticsearch) use its curl when present, else an ssh tunnel (a container's `localhost` is reached at the container's address); Claude Code, Codex, Node and Python are sent by the PC when the host cannot download them (checked against their SHA-256 there); a Docker container is recreated through the host's Docker CLI (`docker system dial-stdio`). Building aSup fetches its fonts with curl, else wget, PowerShell or Python | |
 | git | Yes | System, else aSup's private copy (section 7) | |
 | ssh | For servers | OpenSSH; `~/.ssh/config` is read (`%USERPROFILE%\.ssh\config` on Windows) | |
 
