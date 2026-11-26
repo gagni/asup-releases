@@ -5,22 +5,130 @@
       "id": "asup",
       "kind": "app",
       "name": "aSup",
-      "version": "1.1.9",
-      "notes": "aSup 1.1.9",
+      "version": "1.1.10",
+      "notes": "aSup 1.1.10",
       "assets": [
         {
           "os": "linux",
           "arch": "x86_64",
-          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.9/asup-light-1.1.9-linux-x86_64.tar.zst",
-          "sha256": "e1b7af60faf0a7a544320a64f9df325d3579dd0430f1309cb69baf1ee18ea297",
-          "size": 223592675
+          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.10/asup-light-1.1.10-linux-x86_64.tar.zst",
+          "sha256": "107488a55cedeed9f467fef915c0029620aca8e77813e304513fb2d192f3ac30",
+          "size": 224715784
         },
         {
           "os": "windows",
           "arch": "x86_64",
-          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.9/asup-light-1.1.9-windows-x86_64.zip",
-          "sha256": "83b51b7da0850ef228483cd783a6cc5d3c23a2dc90cb0dec39a021d29d928fd2",
-          "size": 229699133
+          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.10/asup-light-1.1.10-windows-x86_64.zip",
+          "sha256": "46ecccc78fa8e0bad1f6724f1e1df9d22553858739a9a7e5daf0b385a2dc898e",
+          "size": 230702692
+        }
+      ]
+    },
+    {
+      "id": "asup.boards",
+      "kind": "addon",
+      "name": "asup-boards",
+      "version": "1.1.10",
+      "notes": "",
+      "assets": [
+        {
+          "os": "linux",
+          "arch": "x86_64",
+          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.10/asup-boards-linux-x86_64.asupx",
+          "sha256": "890a55c80a28c0299ddc38314cae3121c7f0450c116e5e85397f1e4546cb537c",
+          "size": 10086660,
+          "version": "1.1.10",
+          "source": "dee7906894b2855b159a369c35a0be3beecd3e84705eafe882d4a6dca51af888"
+        },
+        {
+          "os": "windows",
+          "arch": "x86_64",
+          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.10/asup-boards-windows-x86_64.asupx",
+          "sha256": "44f6707fac0c42002adf890d1112fb0ecab6b4a515df37492c5da3b7e7e3b48e",
+          "size": 10002818,
+          "version": "1.1.10",
+          "source": "ec4380bc926d8dfa1bab567d353d947569bd380254bf454bac4dd8663638b1cf"
+        }
+      ]
+    },
+    {
+      "id": "asup.dashboards",
+      "kind": "addon",
+      "name": "asup-dashboards",
+      "version": "1.1.10",
+      "notes": "",
+      "assets": [
+        {
+          "os": "linux",
+          "arch": "x86_64",
+          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.10/asup-dashboards-linux-x86_64.asupx",
+          "sha256": "b4af58a9ad547339d1c9a264b9524128261185de590fd7699dc48068319d5247",
+          "size": 31030621,
+          "version": "1.1.10",
+          "source": "f8e179edaf68e3267aab77806573ce2ec4f281c196131fb3a498570562b41cf0"
+        },
+        {
+          "os": "windows",
+          "arch": "x86_64",
+          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.10/asup-dashboards-windows-x86_64.asupx",
+          "sha256": "da3c4c645f8a55b93d876597cd9c898fe06b6f782c775ed89d6e4b5411a03027",
+          "size": 21488524,
+          "version": "1.1.10",
+          "source": "ba288656864e299239d2c4492637fad27196f9304f6b70c28032be77c253a156"
+        }
+      ]
+    },
+    {
+      "id": "asup.images",
+      "kind": "addon",
+      "name": "asup-images",
+      "version": "1.1.10",
+      "notes": "",
+      "assets": [
+        {
+          "os": "linux",
+          "arch": "x86_64",
+          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.10/asup-images-linux-x86_64.asupx",
+          "sha256": "80285ca4cb4a6336c947a96fee78f6052cf1fd5f0c42961bfd6bca5593a3b3d1",
+          "size": 26751472,
+          "version": "1.1.10",
+          "source": "a89f781a0cbd114fe679d34523fcf8b118eeabccd35f5e64236c30fea5e8d85e"
+        },
+        {
+          "os": "windows",
+          "arch": "x86_64",
+          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.10/asup-images-windows-x86_64.asupx",
+          "sha256": "5931b6d7258368ffd2449b96bb109e0ca018eceaa1d527f1edb8f33221bbe3ed",
+          "size": 17040039,
+          "version": "1.1.10",
+          "source": "c36eabfa314d41e176d5716849674b29e3e11c7e89308e44ca380c5b778620f5"
+        }
+      ]
+    },
+    {
+      "id": "asup.messaging",
+      "kind": "addon",
+      "name": "asup-messaging",
+      "version": "1.1.10",
+      "notes": "",
+      "assets": [
+        {
+          "os": "linux",
+          "arch": "x86_64",
+          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.10/asup-messaging-linux-x86_64.asupx",
+          "sha256": "0720d263a39b5933b8a847e7f29d93edbc85a5b14764ef72e1a884b7262c0621",
+          "size": 2792625,
+          "version": "1.1.10",
+          "source": "a10a724c63f5c587ad38840256a53b6719ebe3d525644d8ecf5ad47d093bd6cd"
+        },
+        {
+          "os": "windows",
+          "arch": "x86_64",
+          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.10/asup-messaging-windows-x86_64.asupx",
+          "sha256": "80a10890fc8b6050be80b77ffe27cb16fb019505ab3b77091c065ab4280f2f4a",
+          "size": 2745950,
+          "version": "1.1.10",
+          "source": "678e192e941cb801347830a3141184a4926286fdcec861333f0450942303b6b1"
         }
       ]
     },
@@ -48,60 +156,6 @@
           "size": 12106828,
           "version": "1.1.9",
           "source": "4dbbd364ab28eac62d499d649a79e0b70234cfa685c59018d41068ba4f624097"
-        }
-      ]
-    },
-    {
-      "id": "asup.dashboards",
-      "kind": "addon",
-      "name": "asup-dashboards",
-      "version": "1.1.9",
-      "notes": "",
-      "assets": [
-        {
-          "os": "linux",
-          "arch": "x86_64",
-          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.9/asup-dashboards-linux-x86_64.asupx",
-          "sha256": "7632187a5a4f2d3e45adfbc086fd0d5ce1894ac848497198419ff91c46ef6a22",
-          "size": 30962609,
-          "version": "1.1.9",
-          "source": "67c3ee9ffc096cd40b1a6b58d199a817ba24067c20943c11ddbf84c470f1944d"
-        },
-        {
-          "os": "windows",
-          "arch": "x86_64",
-          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.9/asup-dashboards-windows-x86_64.asupx",
-          "sha256": "e135611c0f8c6bc76d5f5475b815c35bd01dc277f6ed19d263d9f70210fb941d",
-          "size": 21428632,
-          "version": "1.1.9",
-          "source": "b3f29c7d95f0a1ace46bf6cc738c4c93e7746a0cc1d5de290c18c814c151af6f"
-        }
-      ]
-    },
-    {
-      "id": "asup.images",
-      "kind": "addon",
-      "name": "asup-images",
-      "version": "1.1.9",
-      "notes": "",
-      "assets": [
-        {
-          "os": "linux",
-          "arch": "x86_64",
-          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.9/asup-images-linux-x86_64.asupx",
-          "sha256": "52eb9266894c80c5fc36724fa1634488bb465c52ae7f260e69e194aecf79be73",
-          "size": 26683897,
-          "version": "1.1.9",
-          "source": "a1f78b5b14ffc00605be0b33863326b4cc1609e235d4c2f0558f8e43cd11b17e"
-        },
-        {
-          "os": "windows",
-          "arch": "x86_64",
-          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.9/asup-images-windows-x86_64.asupx",
-          "sha256": "c3a02ed01b8b82892af409d9aab31a231947ff85acb8bb6eee14078f4e61862c",
-          "size": 16998326,
-          "version": "1.1.9",
-          "source": "b9c1389b5c4eb9c76953dbdc2dbae6ae1d4ad44b5b5f0c46e192bc91cbe5190a"
         }
       ]
     },
@@ -156,60 +210,6 @@
           "size": 10095052,
           "version": "1.1.9",
           "source": "d60991b96ea2db33e462b10f35fd1a6fe08ef78511b0460638a709bf7c178b88"
-        }
-      ]
-    },
-    {
-      "id": "asup.boards",
-      "kind": "addon",
-      "name": "asup-boards",
-      "version": "1.1.7",
-      "notes": "",
-      "assets": [
-        {
-          "os": "linux",
-          "arch": "x86_64",
-          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.7/asup-boards-linux-x86_64.asupx",
-          "sha256": "c7bb003dd4babc800c61af01f472304de6e526f2f3e9be5612fdbd7d7b6937d3",
-          "size": 10024507,
-          "version": "1.1.7",
-          "source": "246147a8a883edc9c8eacfb03dd11418b50bf35d96b401a50a6da2994dfaced6"
-        },
-        {
-          "os": "windows",
-          "arch": "x86_64",
-          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.7/asup-boards-windows-x86_64.asupx",
-          "sha256": "500bee12ee32b027bd8e7f90df40a44dc487bf9bc7441efa9f730a4b177c5af5",
-          "size": 9943506,
-          "version": "1.1.7",
-          "source": "4108c0bfe5136509f6480d15bde829141e28e9478119bc4d754e57dd8a4a414d"
-        }
-      ]
-    },
-    {
-      "id": "asup.messaging",
-      "kind": "addon",
-      "name": "asup-messaging",
-      "version": "1.1.7",
-      "notes": "",
-      "assets": [
-        {
-          "os": "linux",
-          "arch": "x86_64",
-          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.7/asup-messaging-linux-x86_64.asupx",
-          "sha256": "4122dd8ba57d684dcbe24eb56ed6e043f6e4aaf460b675ee12f9edad1eb51cde",
-          "size": 1116943,
-          "version": "1.1.7",
-          "source": "20e62ea730625d227480c68a4986d9b3967585b1443d1ee78f644e1640d2369b"
-        },
-        {
-          "os": "windows",
-          "arch": "x86_64",
-          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.7/asup-messaging-windows-x86_64.asupx",
-          "sha256": "e11cb798ed20acca59da9d44d68b099da945f17fc7f08af8449a71ee8f373425",
-          "size": 1065136,
-          "version": "1.1.7",
-          "source": "dd87a0e37fdb584c0e1a868db6486c6af9dcc3e1596751ca46b378663fa5ecba"
         }
       ]
     },
