@@ -1,0 +1,27 @@
+{
+  "id": "asup.images",
+  "kind": "addon",
+  "name": "asup-images",
+  "version": "1.1.10",
+  "notes": "",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.10/asup-images-linux-x86_64.asupx",
+      "sha256": "80285ca4cb4a6336c947a96fee78f6052cf1fd5f0c42961bfd6bca5593a3b3d1",
+      "size": 26751472,
+      "version": "1.1.10",
+      "source": "a89f781a0cbd114fe679d34523fcf8b118eeabccd35f5e64236c30fea5e8d85e"
+    },
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.10/asup-images-windows-x86_64.asupx",
+      "sha256": "5931b6d7258368ffd2449b96bb109e0ca018eceaa1d527f1edb8f33221bbe3ed",
+      "size": 17040039,
+      "version": "1.1.10",
+      "source": "c36eabfa314d41e176d5716849674b29e3e11c7e89308e44ca380c5b778620f5"
+    }
+  ]
+}
