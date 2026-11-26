@@ -5,22 +5,49 @@
       "id": "asup",
       "kind": "app",
       "name": "aSup",
-      "version": "1.1.10",
-      "notes": "aSup 1.1.10",
+      "version": "1.1.11",
+      "notes": "aSup 1.1.11",
       "assets": [
         {
           "os": "linux",
           "arch": "x86_64",
-          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.10/asup-light-1.1.10-linux-x86_64.tar.zst",
-          "sha256": "107488a55cedeed9f467fef915c0029620aca8e77813e304513fb2d192f3ac30",
-          "size": 224715784
+          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.11/asup-light-1.1.11-linux-x86_64.tar.zst",
+          "sha256": "68e8e216f0df1599338f6bb2c90a66158505d2159c408b87ba50d3007f3bf1c3",
+          "size": 224714938
         },
         {
           "os": "windows",
           "arch": "x86_64",
-          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.10/asup-light-1.1.10-windows-x86_64.zip",
-          "sha256": "46ecccc78fa8e0bad1f6724f1e1df9d22553858739a9a7e5daf0b385a2dc898e",
+          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.11/asup-light-1.1.11-windows-x86_64.zip",
+          "sha256": "46a7f1481dbd74415b7c448caf3ca5b07b1d9ab0d88d56ffadc846511841d2f9",
           "size": 230702692
+        }
+      ]
+    },
+    {
+      "id": "asup.docs-sheets-slides",
+      "kind": "addon",
+      "name": "asup-docs-sheets-slides",
+      "version": "1.1.11",
+      "notes": "",
+      "assets": [
+        {
+          "os": "linux",
+          "arch": "x86_64",
+          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.11/asup-docs-sheets-slides-linux-x86_64.asupx",
+          "sha256": "a263cb9201bbeff57c48efe6fa76269f1e1cf8032a36834603eee20feae79b56",
+          "size": 286330966,
+          "version": "1.1.11",
+          "source": "782340989e95b35bff6ed3fab178341f960c4d890eb02e0e88965ad76378a859"
+        },
+        {
+          "os": "windows",
+          "arch": "x86_64",
+          "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.11/asup-docs-sheets-slides-windows-x86_64.asupx",
+          "sha256": "78b8575277bcdbfca644e9be4252f134d016853fe0b5494287e500a60f40eba7",
+          "size": 302849226,
+          "version": "1.1.11",
+          "source": "2feeb04ccc93a3ddc63d969e4c866936e494bce020409f194a3d39b2c7ef49e4"
         }
       ]
     },
