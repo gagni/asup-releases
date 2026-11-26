@@ -1,0 +1,27 @@
+{
+  "id": "asup.docs-sheets-slides",
+  "kind": "addon",
+  "name": "asup-docs-sheets-slides",
+  "version": "1.1.11",
+  "notes": "",
+  "assets": [
+    {
+      "os": "linux",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.11/asup-docs-sheets-slides-linux-x86_64.asupx",
+      "sha256": "a263cb9201bbeff57c48efe6fa76269f1e1cf8032a36834603eee20feae79b56",
+      "size": 286330966,
+      "version": "1.1.11",
+      "source": "782340989e95b35bff6ed3fab178341f960c4d890eb02e0e88965ad76378a859"
+    },
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "url": "https://github.com/gagni/asup-releases/releases/download/v1.1.11/asup-docs-sheets-slides-windows-x86_64.asupx",
+      "sha256": "78b8575277bcdbfca644e9be4252f134d016853fe0b5494287e500a60f40eba7",
+      "size": 302849226,
+      "version": "1.1.11",
+      "source": "2feeb04ccc93a3ddc63d969e4c866936e494bce020409f194a3d39b2c7ef49e4"
+    }
+  ]
+}
